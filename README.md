@@ -1,1 +1,0 @@
-# Smart-Lab-Equipment-Slot-Reservation-Portal
