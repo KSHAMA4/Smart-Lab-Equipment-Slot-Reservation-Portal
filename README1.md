@@ -1,16 +1,16 @@
-# Arfan Asgar
+# Kshama
 
-**SRN:** `YOUR_SRN`
+**SRN:** `PES1UG24AM142`
 
 ---
 
-# Software Engineering Lab — Team 03
+# Software Engineering Lab — Team 01
 
-Software Engineering Laboratory — Team 03
+Software Engineering Laboratory — Team 01
 
 ## Team Repository
 
-This repository contains the work, assignments, lab exercises, and project deliverables for SE Lab Team 03.
+This repository contains the work, assignments, lab exercises, and project deliverables for SE Lab Team 01.
 
 ## Contents
 
