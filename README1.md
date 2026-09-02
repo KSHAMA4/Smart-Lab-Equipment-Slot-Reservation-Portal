@@ -21,4 +21,4 @@ This repository contains the work, assignments, lab exercises, and project deliv
 
 ## Repository
 
-GitHub: https://github.com/YOUR_USERNAME/YOUR_REPOSITORY
+GitHub: https://github.com/KSHAMA4/Smart-Lab-Equipment-Slot-Reservation-Portal.git
