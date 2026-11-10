@@ -13,13 +13,21 @@ logging.basicConfig(level=logging.INFO, format="%(message)s")
 def create_connection():
     """Create an in-memory database containing the orders table."""
     connection = sqlite3.connect(":memory:")
-    connection.execute("CREATE TABLE orders (id INTEGER PRIMARY KEY, supplier TEXT, item TEXT, quantity INTEGER, received INTEGER, remarks TEXT)")
+    connection.execute(
+        "CREATE TABLE orders ("
+        "id INTEGER PRIMARY KEY, supplier TEXT, item TEXT, "
+        "quantity INTEGER, received INTEGER, remarks TEXT)"
+    )
     return connection
 
 
 def place_order(connection, supplier, item, quantity):
     """Insert a new, not-yet-received order and return its id."""
-    cursor = connection.execute("INSERT INTO orders (supplier, item, quantity, received) VALUES (?, ?, ?, 0)", (supplier, item, quantity))
+    cursor = connection.execute(
+        "INSERT INTO orders (supplier, item, quantity, received) "
+        "VALUES (?, ?, ?, 0)",
+        (supplier, item, quantity),
+    )
     return cursor.lastrowid
 
 
